@@ -25,7 +25,7 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'MainKt'
+        attributes 'Main-Class': 'com.wavywalk.e164standarttringformatter.MainKt'
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
